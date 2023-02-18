@@ -1,0 +1,156 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.5in,top=0.2in,right=0.5in,bottom=0.2in]{geometry} % Document margins
+\usepackage{color}
+\usepackage[citecolor=green
+            ]{hyperref}
+
+\hypersetup{hidelinks}
+\name{Ke Li} % Your name
+\address{+(86) 18991478985 \\ \href{mailto:Kay_Rick@outlook.com}{Kay$\_$Rick@outlook.com}} % Your phone number and email
+\address{iHarbour, Xi'an, Shaanxi, 710000, P.R. China}  % Your address
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\textbf{Xi'an Jiaotong University}} \hfill {\em September 2021 - present} \\ 
+Master, Computer Technology, Institute of Parallel and Distributed Data Processing, Average: \textbf{\underline{88.9}}/100
+
+{\textbf{University of Electronic Science and Technology of China}} \hfill {\em September 2017 - June 2021} \\
+Bachelor, Software Engineering
+\begin{rSubsection}{}{}{}{}
+\item GPA: \textbf{\underline{ 3.93 }}/4.00, Rank: \textbf{\underline{6}}/129, English: \textbf{\underline{CET-6}}
+\end{rSubsection}
+
+{\textbf{Singapore Management University}} \hfill {\em July 2018 - August 2018} \\ 
+Innovation and Entrepreneurship in Department Computer Science and Management
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS / AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors / Awards}
+    {\textbf{Special academic scholarship in XJTU}} \hfill {\em 2022} \\
+    {\textbf{First academic scholarship in UESTC}} \hfill {\em 2018, 2019, 2020} \\
+    {\textbf{Third enterprise scholarship in Guizhou Broadcasting Network Inc}} \hfill {\em 2019} \\
+    {\textbf{Outstanding member of the Communist Party of China}} \hfill {\em 2021, 2022}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+    \begin{rSubsection}
+    {}{}{}{}
+        \item[-] Programming language: \textbf{C/C++, Java, Python, JavaScript}
+        \item[-] Familiar: Operation of Linux and Docker; Spring, SpringBoot and MyBatis for backend development; MySQL and Redis database; Dubbo, Thrift framework; MessageQueue RabbitMQ, etc. JUnit and Mockito test framework
+        \item[-] Understand: Machine learning algorithm, Federated learning and PyTorch
+    \end{rSubsection}
+\end{rSection}
+    
+%----------------------------------------------------------------------------------------
+%	WORKING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Internship / Projects Experience}
+
+\begin{rSubsection}{Huawei Inc. Xi'an}{\em August 2022 - September 2022}
+{Device BG, Department of OpenHarmony, C++ software development intern}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] Participate in the maintenance and iteration of OpenHarmony subsystem - distributed device management.
+        \item[-] Participated in collaboration and solved system crashes caused by incorrect use of lock.
+        \item[-] Improve unit testing coverage and Responsible for code quality.
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{JD Inc. Beijing}{\em March 2020 - June 2020}
+{Department of Corporate Finance R.D. , Java software development intern}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] Develop backend business of small and micro financial products with SpringMVC/MyBatis, etc.
+        \item[-] Develop and optimize SMS service module with RPC and MQ framework, achieve the expected effect.
+        \item[-] Responsible for developing application information,quota,interest rate management in ERP system.
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Dynamic data access system based on untrusted cloud}{\em February 2021 - June 2021}
+{Research project, Implemention of dynamic data access system based on untrusted cloud and deploy it on Aliyun}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] Implementation of the system core security control algorithm with C++, about 2000 lines totally.
+        \item[-] Writing a web app with Vue which is convenient to simulate the administrator behavior to do the system test.
+        \item[-] Implementation of delegate-aware encryption to reduce system overhead with RabbitMQ.
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{* XZ Distributed heterogeneous resource virtualization}{\em March 2022 - September 2022}
+{National 173 project}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] Writing C++ code to control and forward DSP, FPGA core instruction with socket and MQ under the ARM platform.
+        \item[-] Implementing static link library of microservice registration which is convenient to manage different tasks in XZ.
+        \item[-] Writing a frontend app with Vue which is convenient to deploy service and monitor hardware information in time.
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Matching system for MOBA games}{\em October 2022 - November 2022}
+{Cooperation project, Implemention of matching system according to player points and waiting time automatically}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] Implementation of the matching system base on microservice architecture with Thrift Framework.
+        \item[-] Writing a message queue based on producer-consumer model to assist system match with C++.
+        \item[-] Using multithreading and locking mechanisms to deal with parallelism in the player matching pool.
+    \end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+
+\end{document}

@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.5in,top=0.2in,right=0.5in,bottom=0.2in]{geometry} % Document margins
+\usepackage{xeCJK}  
+\usepackage{color}
+\usepackage[citecolor=green
+            ]{hyperref}
+
+\hypersetup{hidelinks}
+\name{李\ 钶} % Your name
+\address{+(86) 18991478985 \\ \href{mailto:Kay_Rick@outlook.com}{Kay$\_$Rick@outlook.com}} % Your phone number and email
+\address{陕西省西安市中国西部科技创新港, 邮编710000}  % Your address
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{教育}
+{\textbf{西安交通大学}} \hfill {\em 2021.9 - 至今} \\ 
+硕士研究生, 计算机技术, 并行与分布式数据处理研究所, 平均分: \textbf{\underline{88.9}}/100
+
+{\textbf{电子科技大学}} \hfill {\em 2017.9 - 2021.6} \\
+本科生，软件工程
+\begin{rSubsection}{}{}{}{}
+\item GPA: \textbf{\underline{ 3.93 }}/4.00, 专业排名: \textbf{\underline{6}}/129, 英语水平: \textbf{\underline{CET-6}}
+\end{rSubsection}
+
+{\textbf{新加坡管理大学}} \hfill {\em 2018.7 - 2018.8} \\ 
+计算机学院-管理学院联合实训交流
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS / AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{荣誉 / 奖项}
+    {\textbf{硕士特等学业奖学金}} \hfill {\em 2022} \\
+    {\textbf{本科一等学业奖学金}} \hfill {\em 2018, 2019, 2020} \\
+    {\textbf{贵广网络多彩云三等企业奖学金}} \hfill {\em 2019} \\
+    {\textbf{优秀共产党员}} \hfill {\em 2021, 2022}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{技能}
+    \begin{rSubsection}
+    {}{}{}{}
+    \item[-] 编程语言: \textbf{C/C++, Java, Python, JavaScript}
+    \item[-] 熟悉: Linux、Docker使用; Spring、SpringBoot、MyBatis等开源框架进行后端业务开发; MySQL、Redis数据库使用; Dubbo、Thrift分布式服务框架使用; 使用消息队列RabbitMQ; 使用JUnit、Mockito测试框架
+    \item[-] 了解: 机器学习算法; 联邦学习; PyTorch
+    \end{rSubsection}
+\end{rSection}
+    
+
+%----------------------------------------------------------------------------------------
+%	WORKING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{实习 / 项目经历}
+
+\begin{rSubsection}{华为}{\em 2022.8 - 2022.9}
+{终端BG, OpenHarmony部, C++软件开发实习生}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] 参与OpenHarmony分布式设备管理子系统项目的维护和迭代。
+        \item[-] 参与跨部门协作,曾解决因加锁机制使用不当导致的系统崩溃。
+        \item[-] 完善单元测试提高覆盖率并保证代码质量。
+    \end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{京东数字科技}{\em 2020.3 - 2020.6}
+{企业金融研发部, Java软件开发实习生}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] 使用SpringMVC/MyBatis等框架对小微金融产品的后端业务进行开发。
+        \item[-] 使用RPC分布式框架、消息中间件MQ对短信业务模块进行开发和优化, 达到预期效果。
+        \item[-] 负责开发后台管理ERP系统中的申请信息管理、额度管理、利率管理等模块。
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{基于不可信云的动态数据访问系统}{\em 2021.2 - 2022.6}
+{科研项目, 实现基于不可信云端的动态数据访问系统并部署在阿里云服务器}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] 使用C++编写了系统的安全控制核心算法, 总共约2000行。
+        \item[-] 编写了一个基于Vue的Web界面, 方便模拟管理员行为对系统做相关性能测试。
+        \item[-] 使用消息中间件RabbitMQ实现委托感知加密减小系统额外开销。
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{* XZ分布式异构资源虚拟化}{\em 2022.3 - 2022.9}
+{国家173重点项目}
+{}
+\item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] 在ARM平台下, 使用C++实现基于Socket和消息队列实现DSP、FPGA等硬件核心指令程序的控制和转发。
+        \item[-] 实现微服务注册功能并打包成静态链接库, 对XZ场景中不同任务的微服务进行统一协调管理。
+        \item[-] 编写了一个基于Vue的上位机程序, 方便对微服务进行统一部署管理和实时监控硬件信息。
+    \end{itemize}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{MOBA类游戏匹配系统}{\em 2022.10 - 2022.11}
+{合作项目, 根据玩家积分和等待时间自动匹配}
+{}
+    \item[]
+    \begin{itemize}
+    \setlength\itemsep{-0.5em}
+        \item[-] 应用Thrift Framework编写基于微服务架构的匹配系统。
+        \item[-] 使用C++实现一种基于生产者-消费者模型的消息队列辅助系统匹配。
+        \item[-] 使用多线程和锁机制来处理玩家匹配池中的并行问题。
+    \end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+
+\end{document}
